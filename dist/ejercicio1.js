@@ -1,10 +1,5 @@
 "use strict";
-// La clase debe tener:
 Object.defineProperty(exports, "__esModule", { value: true });
-// Un constructor que inicialice los atributos.
-// Un método calcularTotal() que retorne el total (precio × cantidad).
-// Un método mostrarDetalle() que imprima la información del producto.
-// Instanciar al menos un objeto y ejecutar sus métodos.
 class Producto {
     constructor(nombre, precio, cantidad) {
         this.nombre = nombre;
